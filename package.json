@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennethSoza/ghost-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/kennethSoza/ghost-api/issues"
+  },
+  "homepage": "https://github.com/kennethSoza/ghost-api#readme",
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.6.0"
